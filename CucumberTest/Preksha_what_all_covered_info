@@ -1,5 +1,12 @@
-1. Here I have developed page object framework with BDD test development
-2. There are total 6 test scenarios
+Here I have developed page object framework with BDD test development
+There are total 6 test scenarios
+The project can be run in the following manner:
+
+1. mvn test from the command prompt
+2. Right click on feature file and run as - Cucumber Feature
+3. Run as maven test from Eclipse
+4. Specific feature file run - mvn test -Dcucumber.options=”feature/RSComponentTestCases.feature”
+
 Flow for each is explained below:
 
    Scenario: Login with User and proceed to payment
