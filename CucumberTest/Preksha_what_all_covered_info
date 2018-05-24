@@ -1,0 +1,46 @@
+1. Here I have developed page object framework with BDD test development
+2. There are total 6 test scenarios
+Flow for each is explained below:
+
+   Scenario: Login with User and proceed to payment
+  > User prekshakasliwal with password logs in 
+  > Success msg check for text Welcome preksha
+  > Search is performed
+  > Search item is added to basket
+  > Checkout Securly is checked
+  
+    Scenario: Login with User and check for Filter labels and Table headings
+  > User prekshakasliwal with password logs in 
+  > Success msg check for text Welcome preksha
+  > Search is performed
+  > Filter options and Table heading labels are checked to be as expected
+   
+   Scenario: Login with User Apply filter after Search
+  > User prekshakasliwal with password logs in 
+  > Success msg check for text Welcome preksha
+  > Search is performed
+  > String for searched is matched after applying filter
+  
+    Scenario: Login with User and remove selected Item from cart
+  > User prekshakasliwal with password logs in 
+  > Success msg check for text Welcome preksha
+  > Search is performed
+  > Searched item is added to Basket
+  > And removed from alert shown
+  
+    Scenario Outline: Login with User and search for more Options
+   > User prekshakasliwal with password logs in 
+  > Success msg check for text Welcome preksha
+  > Search is performed
+  > Strings are checked , added as an example for Scenario Outline implementation
+  
+  
+ Enhancements :
+  1. Red highlight for element currently being worked on
+  2. Implicit and Explicit waits 
+  3. Screenshot for Failure 
+  4. Common code at one place
+  5. Common method to verify labels from list- written in homepage  
+ 
+ Thanks
+ Preksha
