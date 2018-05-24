@@ -1,0 +1,8 @@
+StepDefinition\BasketSummaryPage.class
+StepDefinition\ProductDetailPage.class
+StepDefinition\CommonMethods.class
+StepDefinition\PreDefinedSteps.class
+StepDefinition\HomePage.class
+StepDefinition\ProductOrderPage.class
+StepDefinition\BasePage.class
+StepDefinition\LoginPage.class
